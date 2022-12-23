@@ -1,0 +1,161 @@
+.userProfile__wrapper {
+  width: 100%;
+  height: 100%;
+  max-height: 482px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.userProfile {
+  height: 100vh;
+  width: 100%;
+  max-height: 626px;
+  padding: 0 30px;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.updateProfileForm {
+  height: 100%;
+  min-width: 410px;
+  display: flex;
+  padding-top: 123px;
+  font-family: 'Inter', 'Arial', 'Helvetica', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+}
+.userProfile__title {
+  max-width: 395px;
+  text-overflow: ellipsis;
+  margin: 0;
+  white-space: nowrap;
+  text-align: center;
+  font-family: 'Inter', 'Arial', 'Helvetica', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 29px;
+  color: #fff;
+}
+
+.userProfile__field {
+  padding: 0;
+  vertical-align: middle;
+  text-align: right;
+  text-overflow: ellipsis;
+  border: none;
+  outline: none;
+  color: #fff;
+  background-color: #202020;
+  font-size: 11px;
+  line-height: 13px;
+}
+
+.userProfile__field:disabled {
+  color: #afadad
+}
+
+.userProfile__input-label {
+  min-width: 34px;
+  color: #fff;
+  margin-right: 5px;
+}
+
+.input__underline {
+  margin: 3px 0 5px;
+  height: 1px;
+  width: 100%;
+  border: none;
+  background-color: #424242;
+}
+
+.auth__form-string {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 11px;
+  line-height: 13px;
+}
+
+.userProfile__btn-block {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.userProfile__btn-edit {
+  color: #fff;
+  background-color: #202020;
+  font-family: 'Inter', 'Arial', 'Helvetica', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 16px;
+  border: none;
+}
+
+.userProfile__btn-edit:last-child {
+  margin-top: 16px;
+  color: #ee3465;
+}
+
+.auth__btn-save_userProfile {
+  margin-top: 0;
+}
+
+.auth__form-block {
+  display: flex;
+  flex-direction: column;
+  max-height: 40px;
+}
+
+.userProfile__error {
+  margin: 0;
+  padding-bottom: 20px;
+  font-size: 11px;
+  line-height: 13px;
+  color: #ff004c;
+}
+
+.userProfile__error_white {
+  color: #FFFFFF;
+}
+
+@media screen and (max-width: 800px) {
+  .updateProfileForm {
+    min-height: 320px;
+    padding-top: 96px;
+  }
+
+  .userProfile {
+    max-height: 950px;
+    padding-bottom: 33px;
+  }
+  .userProfile__wrapper {
+    max-height: 445px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .auth__container_profile {
+    max-height: 596px;
+  }
+  .updateProfileForm {
+    min-width: 260px;
+    padding-top: 80px;
+  }
+  .userProfile {
+    padding-bottom: 0;
+    padding-top: 30px;
+    max-height: 707px;
+  }
+  .userProfile__wrapper {
+    max-height: 596px;
+  }
+}

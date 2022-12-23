@@ -1,0 +1,146 @@
+.techs {
+  max-width: 1280px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #fff;
+  background-color: #272727;
+  padding: 100px 0 100px;
+}
+
+.section__heading_techs {
+  align-self: flex-start;
+  width: 100%;
+}
+
+.section__title_techs {
+  padding: 90px 0 26px;
+}
+
+.techs_text {
+  margin: 0;
+  max-width: 460px;
+  font-family: 'Inter', 'Arial', 'Helvetica', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: -0.04em;
+  text-align: center;
+}
+
+.techs__info {
+  max-width: 690px;
+  padding: 0;
+  margin-top: 100px;
+  display: grid;
+  grid-template-columns: repeat(7, minmax(84px, 90px));
+  grid-template-rows: 60px;
+  grid-column-gap: 10px;
+}
+
+.techs__container {
+  max-width: 1240px;
+  width: 100%;
+  padding: 0 40px;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.app__btn_techs {
+  min-width: auto;
+  min-height: auto;
+  margin-right: 0;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  background-size: 0% 100%;
+  transition: background-size .5s, color .5s;
+  transition: .5s, text .5s;
+}
+
+.app__btn_techs:hover {
+  color: #000;
+  transition: .5s, color .5s;
+  transition: .5s, text .5s;
+  font-size: 17px;
+  background-size: 100% 100%;
+}
+
+.app__btn_techs_html {
+  background-image: linear-gradient(#e65126, #e65126);
+}
+
+.app__btn_techs_html:hover {
+  color: #fff;
+}
+
+.app__btn_techs_css {
+  background-image: linear-gradient(#0c73b8, #0c73b8);
+}
+
+.app__btn_techs_css:hover {
+  color: #fff;
+}
+
+.app__btn_techs_js {
+  background-image: linear-gradient(#f7df1e, #f7df1e);
+}
+
+.app__btn_techs_react {
+  background-image: linear-gradient(#05dbfb, #05dbfb);
+}
+
+.app__btn_techs_git {
+  background-image: linear-gradient(#fff, #fff);
+}
+
+.app__btn_techs_express {
+  background-image: linear-gradient(#000, #000);
+}
+
+.app__btn_techs_express:hover {
+  color: #fff;
+}
+
+.app__btn_techs_mongo {
+  background-image: linear-gradient(#08bf51, #08bf51);
+}
+
+@media screen and (max-width: 1070px) {
+  .techs__container {
+    padding: 0 50px;
+  }
+  .techs {
+    padding: 90px 0 90px;
+  }
+  .techs__info {
+    margin-top: 83px
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .techs__info {
+    grid-template-rows: 57px;
+    grid-auto-rows: 57px;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .techs__container {
+    padding: 0 18px;
+  }
+
+  .techs__info {
+    grid-row-gap: 10px;
+    grid-template-columns: repeat(2, 84px);
+    margin-top: 50px;
+    margin-bottom: 0;
+  }
+  .techs {
+    padding: 70px 0 ;
+    background-color: #202020;
+  }
+}

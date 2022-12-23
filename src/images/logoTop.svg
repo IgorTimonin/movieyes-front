@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   width="38"
+   height="38"
+   version="1.1"
+   id="svg26"
+   sodipodi:docname="logoTop.svg"
+   inkscape:version="1.2.1 (9c6d41e410, 2022-07-14)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs30" />
+  <sodipodi:namedview
+     id="namedview28"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     showgrid="false"
+     inkscape:zoom="15.221404"
+     inkscape:cx="27.001452"
+     inkscape:cy="14.617574"
+     inkscape:window-width="1920"
+     inkscape:window-height="1002"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="g24" />
+  <title
+     id="title17">LogoToTop</title>
+  <g
+     id="g24">
+    <title
+       id="title19">Layer 1</title>
+    <path
+       id="svg_1"
+       fill="#3DDC84"
+       d="m0,12.6667c0,-4.43378 0,-6.65066 0.86287,-8.34412c0.75899,-1.48962 1.97009,-2.70072 3.45971,-3.45971c1.69346,-0.86287 3.91034,-0.86287 8.34412,-0.86287l12.6666,0c4.4338,0 6.6507,0 8.3441,0.86287c1.4896,0.75899 2.7007,1.97009 3.4597,3.45971c0.8629,1.69346 0.8629,3.91034 0.8629,8.34412l0,12.6666c0,4.4338 0,6.6507 -0.8629,8.3441c-0.759,1.4896 -1.9701,2.7007 -3.4597,3.4597c-1.6934,0.8629 -3.9103,0.8629 -8.3441,0.8629l-12.6666,0c-4.43378,0 -6.65066,0 -8.34412,-0.8629c-1.48962,-0.759 -2.70072,-1.9701 -3.45971,-3.4597c-0.86287,-1.6934 -0.86287,-3.9103 -0.86287,-8.3441l0,-12.6666z" />
+    <circle
+       id="svg_2"
+       fill="#ffffff"
+       r="11"
+       cy="19.142664"
+       cx="15.796555" />
+    <path
+       id="svg_4"
+       d="m 12.538055,18.852877 3.554009,-5.686645 3.554009,5.686645 h -1.777005 v 5.714008 h -3.554009 v -5.714008 z"
+       stroke-linecap="null"
+       stroke-linejoin="null"
+       stroke-dasharray="none"
+       stroke-width="null"
+       fill="#3ddc84" />
+  </g>
+</svg>
