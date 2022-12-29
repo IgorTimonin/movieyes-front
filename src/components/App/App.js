@@ -20,7 +20,7 @@ import MoviesApi from '../../utils/MoviesApi';
 import { mainApi } from '../../utils/MainApi';
 import PrivateRoute from '../../hoc/PrivateRoute';
 
-function App() {
+const App = () => {
   const location = useLocation();
   const [loggedIn, setLoggedIn] = useState(false);
   const [isOpen, setIsOpen] = useState(false);
@@ -37,7 +37,7 @@ function App() {
     name: '',
     email: '',
   });
-  
+
   useEffect(() => {
     loginStatus = JSON.parse(localStorage.getItem('loginStatus'));
     if (loginStatus) {
@@ -335,4 +335,4 @@ function App() {
   );
 }
 
-export default App;
+export { App };
